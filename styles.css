@@ -1,0 +1,42 @@
+.main {
+    color: black;
+    background-color:#bc8a5f;
+}
+
+.odin-recipes {
+    font-size: 75px;
+    text-align: center;
+}
+
+.menu{
+    font-size:30px;
+    line-height:75pt;
+}
+
+.sub-one {
+    background-color: #e7bc91;
+}
+
+.sub-two {
+    background-color:#f3d5b5
+}
+
+.sub-three {
+    background-color:#ffedd8
+}
+
+h2 {text-decoration: underline;
+    font-family:monospace;
+}
+
+h3 {font-style: oblique;
+    font-family: monospace;
+}
+
+li {
+    text-align: justify;
+}
+img {
+    height: auto;
+    width: 350px;
+}
