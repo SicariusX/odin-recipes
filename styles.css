@@ -3,14 +3,34 @@
     background-color:#bc8a5f;
 }
 
+.container {  /*flexbox implemented*/
+    display:flex;
+    /*background-color: white;*/
+    justify-content: space-around;
+    align-items: center;
+    height:300px;
+    }
+
+img {
+    height:auto;
+    width:350px;
+}
+
+.second-container{
+    display:flex;
+    height:300px;
+    justify-content: space-around;
+    align-items: center;
+   /* background-color: white;*/
+}
+
 .odin-recipes {
     font-size: 75px;
     text-align: center;
 }
 
-.menu{
-    font-size:30px;
-    line-height:75pt;
+.food{
+    font-size:35px;
 }
 
 .sub-one {
@@ -31,12 +51,4 @@ h2 {text-decoration: underline;
 
 h3 {font-style: oblique;
     font-family: monospace;
-}
-
-li {
-    text-align: justify;
-}
-img {
-    height: auto;
-    width: 350px;
 }
